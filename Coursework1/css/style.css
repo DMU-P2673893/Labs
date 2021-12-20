@@ -1,0 +1,54 @@
+body {
+background-color: black;
+
+}
+
+.title{
+color: red;
+text-align: center;
+}
+.Menu{
+color: red;
+text-align: center;
+
+}
+.synopsis{
+  color: red;
+  text-align: center;
+
+}
+
+footer {
+  color: red;
+}
+.Trailer{
+width: 1080px;  /* the margin auto allows me to center the video, i learned how to do this using stackoverflow.com */
+height: 720px;
+margin: auto;
+color:red; /* because the background is dark this is so that if their browser does not support the video they can read the text to say it does not support it*/
+}
+
+.text
+{
+  color: red; /* this was so i could change any misc text to red */
+}
+.interview {
+  color: red; /* p.s a black background is a terrible idea */
+  margin: auto;
+  width: 50%;
+}
+.Picture{
+  float: left; /* i could not get a collum to correctly work but i found this followed the layout */
+  padding: 25px;
+  height: 50px;
+  width: 50px;
+}
+.audio {
+  color: red; /* so the does not work text is readable*/
+  margin: auto;
+  width: 50%;
+}
+.flexbox{
+display: flex;
+
+}
