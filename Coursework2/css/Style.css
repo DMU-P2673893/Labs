@@ -1,0 +1,91 @@
+body {
+  background-color: #2c2f33; /* this is to change the background color */
+width: 1920px;
+height: 1080px;
+content: normal;
+}
+footer{
+ float: left;  /* this will make it stay in the left and look neater */
+ bottom: 0px;
+position: fixed; /* this makes sure the footer stays at the bottom of the screen */
+
+}
+
+.footerText{
+  font-size: 15px;
+  color: white;
+   text-align: left;
+}
+
+.Text {
+font-size: 30px;
+color: white;
+ text-align: center;
+}
+
+.Slideshow {
+float: center;
+display: flex;
+margin: auto;
+width: 50%;
+height: 50%;
+}
+
+.image {
+float: left;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.Etxt {
+
+  font-size: 15px;
+  color: white;
+text-align: justify;
+}
+
+.gallery {
+  margin: 10px 50px;
+float: left;
+}
+
+
+
+.dropbtn {
+  background-color: #333333;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: 1px;
+  float: left;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* this part is a alternative way of picking the colors used */
+  z-index: 1
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #00d4ff;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #00d4ff;}
